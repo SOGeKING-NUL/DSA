@@ -34,7 +34,7 @@ public:
         while(l<r){   
             
             int mid=l+(r-l)/2;
-            
+
             if(nums[mid]>=nums[0]){
                 l=mid+1;
             }
@@ -85,4 +85,4 @@ public:
             }
         }return -1;
     }
-};
+}
